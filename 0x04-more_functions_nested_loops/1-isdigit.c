@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _isdigit - check for numbers from 0 - 90
+ * _isdigit - check if  numbers from 0 - 90
  *
- * @c: parameter
+ * @c: char to be checked
  *
  * Return: 0 or 1
  */
@@ -13,6 +13,6 @@ int _isdigit(int c)
 	if (c >= '0' && c <= '9')
 		return (1);
 	else
-		return (2);
+		return (0);
 
 }
